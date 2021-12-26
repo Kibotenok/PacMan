@@ -1,19 +1,9 @@
 #include "AbstractMob.h"
 
-void AbstractMob::moveUp(const int& direction) {
-	/*
-	 * moveUp ƒвижение вдоль оси Y
-	 * 
-	 * param: direction - направление движени€
-	 * return: ничего
-	 */
-	this->y += direction;
-}
+void AbstractMob::moveUp(const int& direction) { this->y += direction; }
 
-void AbstractMob::moveRight(const int& direction) {
-	this->x += direction;
-}
+void AbstractMob::moveRight(const int& direction) {	this->x += direction; }
 
-void AbstractMob::eat()
-{
-}
+int AbstractMob::getX() const {	return this->x; }
+
+int AbstractMob::getY() const { return this->y; }
