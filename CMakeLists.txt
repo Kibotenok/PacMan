@@ -6,6 +6,6 @@ cmake_minimum_required (VERSION 3.8)
 project ("PacMan")
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (PacMan "PacMan.cpp" "PacMan.h" "AbstractMob.h" "AbstractMob.cpp")
+add_executable (PacMan "PacMan.cpp" "PacMan.h" "Mobs/AbstractMob.h" "Mobs/AbstractMob.cpp")
 
 # TODO: Добавьте тесты и целевые объекты, если это необходимо.
